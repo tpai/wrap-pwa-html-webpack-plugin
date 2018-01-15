@@ -1,6 +1,6 @@
 {
-  "name": "@tpai/wrap-pwa-html-webpack-plugin",
-  "version": "1.0.0",
+  "name": "wrap-pwa-html-webpack-plugin",
+  "version": "1.0.1",
   "description": "Enhances html-webpack-plugin functionality with PWA feature.",
   "main": "index.js",
   "scripts": {
