@@ -11,7 +11,7 @@ Enhances html-webpack-plugin functionality with progressive web app features:
 Install the plugin with npm:
 
 ```
-$ npm install wrap-pwa-html-webpack-plugin --save-dev
+$ npm install @tpai/wrap-pwa-html-webpack-plugin --save-dev
 ```
 
 ## Usage
