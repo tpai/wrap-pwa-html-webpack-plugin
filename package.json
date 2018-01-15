@@ -1,0 +1,19 @@
+{
+  "name": "wrap-pwa-html-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Enhances html-webpack-plugin functionality with PWA feature.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin",
+    "pwa",
+    "progressive-web-apps"
+  ],
+  "author": "Tony Pai",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^11.5.1"
+  }
+}
