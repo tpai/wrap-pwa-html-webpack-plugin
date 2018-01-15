@@ -1,9 +1,11 @@
 {
-  "name": "wrap-pwa-html-webpack-plugin",
+  "name": "@tpai/wrap-pwa-html-webpack-plugin",
   "version": "1.0.0",
   "description": "Enhances html-webpack-plugin functionality with PWA feature.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "webpack",
     "plugin",
@@ -11,9 +13,13 @@
     "pwa",
     "progressive-web-apps"
   ],
-  "author": "Tony Pai",
-  "license": "ISC",
+  "author": "Tony Pai <tony77794@gmail.com>",
+  "license": "WTFPL",
   "dependencies": {
     "jsdom": "^11.5.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tpai/wrap-pwa-html-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/tpai/wrap-pwa-html-webpack-plugin#readme"
 }
