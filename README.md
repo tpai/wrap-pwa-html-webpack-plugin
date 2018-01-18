@@ -61,7 +61,7 @@ plugins: [
 ]
 ```
 
-Service worker file will automatically generate, you could modify any of it but variable definitions at the top.
+Service worker file will automatically generate, you could modify any lines of it but variable definitions.
 
 ```
 // Plugin will automatically generate cache name and asset file name
@@ -73,4 +73,15 @@ const filesToCache = [
 
 self.addEventListener('install', e => {
   console.log('[ServiceWorker] Install');
+```
+
+## Troubleshoot
+
+**Q: Why webpack-dev-server could not load `sw.js` and `manifest.json`?**
+
+You must tell devServer where to serve content from, add an option named `contentBase` into devServer config like below:
+
+```
+devServer: {
+  contentBase: 'dist',
 ```
